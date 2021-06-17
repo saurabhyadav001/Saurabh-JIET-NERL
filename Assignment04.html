@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment04</title>
+</head>
+<style>
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: Arial;
+}
+
+.main{
+
+}
+
+.cards{
+    width: 25%;
+    display: inline-block;
+    background-color:rgb(189, 144, 178);
+    border-radius: 5px;
+    margin: 30px;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+.image img{
+    width:100%;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.title{
+    text-align: center;
+    padding: 5px;
+}
+
+.des{
+    text-align: center;
+    padding: 4px;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background-color: rgb(45, 60, 190);
+}
+
+
+    .navbar{
+        background-color: rgb(27, 10, 10);
+        padding: 5px;
+    }
+     .navbar ul{
+        overflow: auto ;
+    }
+    .navbar li{
+        float: left;
+        /* list-style: none;  by this background colour will overflow and non visisble */
+       margin: 2px;
+       /* background-color: rgb(84, 104, 104);  */
+    } 
+    .navbar li a{
+        padding:3px 25px;
+        text-decoration: none;
+        color: white;    
+    }
+
+    .navbar li a:hover{ 
+        /* background-color: red;    */
+         color: red;
+    }
+
+    .search{
+        float: right;
+        color: white;
+        padding: 12px 75px;
+    }
+    .navbar input{
+        border: 2px solid black;
+        border-radius:4px ;
+        /* padding: ; */
+    }
+</style>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a> </li>
+                <li><a href="#">Contact</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website" ></div>
+            </ul>
+        </nav>
+    </header> 
+    
+
+    <div class="main">
+
+    </div>
+    <div class="cards">
+        <div class="image">
+            <img src="https://fdn2.gsmarena.com/vv/pics/realme/realme-x-1.jpg" alt="Realme-X image" height="500px">
+
+        </div>
+        <div class="title">
+            <h1>Realme X</h1>
+        </div>
+        <div class="des">
+            <p>Realme-X smartphone has a Super-Amolead display. It measures 158 mm x 77.8 mm x 8.1 mm and weighs 191 grams. The screen has a resolution of 1242 x 2688 pixels and 456 ppi pixel density. It has an aspect ratio of 19.5:9 and screen-to-body ratio of 84.19 %.
+            </p>
+            <button><a href="https://www.realme.com/in/realme-x/photograph">click here</a></button>
+        </div>
+
+    </div>
+    <!--cards-->
+    <div class="cards">
+        <div class="image">
+            <img src="https://images.macrumors.com/t/TFF69IC9GAOckjCNRQxH6QR2Xek=/400x0/filters:quality(90)/article-new/2020/10/iphone12pro.jpg?lossy" alt="iphone 12 pro max image" height="440px">
+
+        </div>
+        <div class="title">
+            <h1>iphone 12 pro max</h1>
+        </div>
+        <div class="des">
+            <p>The iPhone 12 design is something, which is receiving attention from iPhone users worldwide. It has become a hot topic among tech and iPhone addicts. Everyone is discussing the iPhone 12 leaked design and its appearance. No doubt, the real iPhone lovers value iPhone 12 design as much as features matter to them. Let us see what iPhone 12 leaked design look alike.</p>
+            <button> <a href="https://en.wikipedia.org/wiki/IPhone_12_Pro"> read more...</a></button>
+        </div>
+
+    </div>
+    <!--cards-->
+    <div class="cards">
+        <div class="image">
+            <img src="https://www.gizbot.com/images/2020-07/realme-x50-5g_159435832560.jpg" alt="Realme-X7 5G image" height="500px">
+
+        </div>
+        <div class="title">
+            <h1>Realme-X7 </h1>
+        </div>
+        <div class="des">
+            <p>Blast past fast. Realme X7 now in purple. Buy now. 750g SDM. Six colours. Ceramic Shield. Super Retina XDR display. Services: No-contact free delivery, EMI available, Shop with Specialists.</p>
+            <button> <a href="https://www.realme.com/in/realme-x50-pro">read more...</a></button>
+        </div>
+
+    </div>
+    <div class="cards">
+        <div class="image">
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-pro-129-2021-1.jpg" alt="ipad-pro image" height="500px">
+
+        </div>
+        <div class="title">
+            <h1>iPad pro</h1>
+        </div>
+        <div class="des">
+            <p>iPad Pro is a line of iPad tablet computers designed, developed, and marketed by Apple Inc, first made available in November 2015. They run the iOS and iPadOS mobile operating systems. The current generation is available in two screen sizes, 11-inch (28 cm) and 12.9-inch (33 cm),[12] each with five options for internal NVMe storage capacities: 128 GB, 256 GB, 512 GB, 1 TB, and 2 TB</p>
+            <button> <a href="https://en.wikipedia.org/wiki/IPad_Pro">read more...</a></button>
+        </div>
+
+    </div>
+    <div class="cards">
+        <div class="image">
+            <img src="https://i.gadgets360cdn.com/products/large/ipad-air-2020-1910x800-1600198178.jpg" alt="ipad-air image" height="500px">
+
+        </div>
+        <div class="title">
+            <h1>iPad air</h1>
+        </div>
+        <div class="des">
+            <p>The iPad Air is a tablet computer designed, developed, and marketed by Apple Inc. It was announced on October 22, 2013, and was released on November 1, 2013. Part of the iPad line of tablet computers, the iPad Air features a thinner design than its predecessors with similarities to the contemporaneous iPad Mini 2.</p>
+            <button> <a href="https://en.wikipedia.org/wiki/IPad_Air">read more...</a></button>
+        </div>
+
+    </div>
+    <div class="cards">
+        <div class="image">
+            <img src="https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP708/SP708-gold.jpeg" alt="ipad-pro-2 image">
+
+        </div>
+        <div class="title">
+            <h1>iPad pro-2</h1>
+        </div>
+        <div class="des">
+            <p>The iPad Air 2 is the second-generation iPad Air tablet computer designed, developed, and marketed by Apple Inc. It was announced on October 16, 2014, alongside the iPad mini 3, both of which were released on October 22, 2014. The iPad Air 2 is thinner and faster than its predecessor, the iPad Air, and features Touch ID with the height and screen size the same as the iPad Air.</p>
+            <button> <a href="https://en.wikipedia.org/wiki/IPad_Air_2">read more...</a></button>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
